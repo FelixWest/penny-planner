@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f7fa;
+  color: #1f3548;
+}
+
+.App {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #eef5fc, #d6e4f1);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.App-header {
+  background-color: #354f68;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+  color: #ffffff;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.App-link {
+  color: #4677a8;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+.App-link:hover {
+  color: #5d9fd4;
+}
+
+.btn-primary {
+  background-color: #1a9416;
+  border-color: #1a9416;
+}
+
+.btn-primary:hover {
+  background-color: #157812;
+  border-color: #157812;
+}
+
+.custom-navbar {
+  background-color: #1a9416;
+}
+
+table tr:nth-child(odd) {
+  background-color: #eef2f6;
+}
+
+table tr:nth-child(even) {
+  background-color: #d3dee9;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #a3b8ce;
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: #4677a8; /* Bright blue for headers */
+  color: black;
+}
